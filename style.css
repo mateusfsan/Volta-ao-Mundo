@@ -4,9 +4,11 @@
 }
 
 body{
-    font-family: arial,sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    background-color: snow;
+    
 }
 
 header{
@@ -68,7 +70,7 @@ li,a:hover{
 /*Conteúdo do Home*/
 .conteudo > p{
     font-size: 15px;
-    color: black;
+    color:#333333;
     text-align: justify;
     margin-top: 2.5%;
 }
@@ -86,6 +88,10 @@ h1{
 .logos{
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.tittle-pages{
+    font-size: 25px;
 }
 
 .tittle-h2{
@@ -110,4 +116,34 @@ footer{
         text-align: center;
         padding-top: 10px;
     }
+}   
+
+/* Países */
+
+.paises{
+    display: flex;
+}
+
+.paises>p{
+    font-size: 15px;
+    color:#333333;
+    text-align: justify;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+.img-paises img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+} 
+
+.img-paises{
+    width: 100%;
+    height: auto;
+}
+
+strong{
+    font-size: 18px;
 }
